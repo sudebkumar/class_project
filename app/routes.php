@@ -52,3 +52,4 @@ Route::get('/page5', function()
 });
 
 Route::resource('books','BookController');
+
