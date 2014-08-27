@@ -16,4 +16,39 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
+Route::get('/attendances', function()
+{
+    return View::make('/attendances/index');
+});
+
+
+Route::get('/page1', function()
+{
+    return View::make('/attendances/page1');
+});
+
+
+Route::get('/page2', function()
+{
+    return View::make('/attendances/page2');
+});
+
+
+Route::get('/page3', function()
+{
+    return View::make('/attendances/page3');
+});
+
+
+Route::get('/page4', function()
+{
+    return View::make('/attendances/page4');
+});
+
+
+Route::get('/page5', function()
+{
+    return View::make('/attendances/page5');
+});
+
 Route::resource('books','BookController');
